@@ -1057,7 +1057,7 @@ section .container {
   background: rgba(255, 255, 255, 0.08);
 }
 
-.contact .php-email-form .error-message {
+/* .contact .php-email-form .error-message {
   display: none;
   background: rgba(255, 255, 255, 0.08);
   background: #ed3c0d;
@@ -1096,6 +1096,20 @@ section .container {
   border: 3px solid #18d26e;
   border-top-color: #eee;
   animation: animate-loading 1s linear infinite;
+} */
+/* .contact .php-email-form.success input{
+  border-color: #09c372 ! important;
+}
+.contact .php-email-form.error input{
+  border-color: #ff3860 ! important;
+} */
+
+
+/* !important */
+/* error color specified */
+.contact .php-email-form .error{
+  color: #ff3860;
+  font-size: 10px;
 }
 
 .contact .php-email-form input,
